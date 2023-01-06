@@ -39,8 +39,29 @@ set alias:
 ```bash
 alias trivy-operator='bash ~/trivy-operator/operator.sh ~/trivy-operator/namespace.txt'
 ```
+launch script:
 
+```bash
+trivi-operator
+```
+![script](https://user-images.githubusercontent.com/68069659/210920410-347ba0ac-dab6-49c7-9b92-5182f0b58514.gif)
 
+see result in report.txt
+
+![image](https://user-images.githubusercontent.com/68069659/210921053-1bcbef46-e93b-4969-8676-d2aa7311fb0d.png)
+
+for more info:
+
+```bash
+kubectl describe vuln <REPLICASET> -n <NAMESPACE>
+
+or
+
+```bash
+kubectl describe configaudit <REPLICASET> -n <NAMESPACE>
+```
+
+![image](https://user-images.githubusercontent.com/68069659/210922151-f079a7c5-84fb-483e-87b8-6daa1bc22078.png)
 
 
 
