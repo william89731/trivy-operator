@@ -54,7 +54,7 @@ for more info:
 
 ```bash
 kubectl describe vuln <REPLICASET> -n <NAMESPACE>
-
+```
 or
 
 ```bash
