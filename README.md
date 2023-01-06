@@ -19,13 +19,20 @@ Install trivy operator:
 kubectl apply -f https://raw.githubusercontent.com/aquasecurity/trivy-operator/v0.10.1/deploy/static/trivy-operator.yaml
 ```
 
-###step 2
+### step 2
 
 Clone this repo:
 
 ```bash
-cd ~ && git clone
+cd ~ && git clone https://github.com/william89731/trivy-operator && cd trivy-operator
 ```
+
+set alias:
+
+```bash
+alias trivy-operator='bash ~/trivy-operator/operator.sh ~/trivy-operator/namespace.txt'
+```
+
 
 
 
