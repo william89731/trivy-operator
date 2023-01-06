@@ -13,6 +13,20 @@
 
 ### step 1
 
+Install trivy operator:
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/aquasecurity/trivy-operator/v0.10.1/deploy/static/trivy-operator.yaml
+```
+
+###step 2
+
+Clone this repo:
+
+```bash
+cd ~ && git clone
+```
+
 
 
 
