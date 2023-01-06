@@ -28,29 +28,32 @@ kubectl get deployment -n trivy-system
 
 ### step 2
 
-Clone this repo:
+- Clone this repo:
 
 ```bash
 cd ~ && git clone https://github.com/william89731/trivy-operator && cd trivy-operator
 ```
+- make your [namespace.txt]()
 
-set alias:
+![image](https://user-images.githubusercontent.com/68069659/210927282-57a5228b-33fb-4739-8b20-dc43fdb8109c.png)
 
-```bash
-alias trivy-operator='bash ~/trivy-operator/operator.sh ~/trivy-operator/namespace.txt'
-```
-launch script:
+
+- set alias:
+
+```alias trivy-operator='bash ~/trivy-operator/operator.sh ~/trivy-operator/namespace.txt'```
+
+- launch script:
 
 ```bash
 trivi-operator
 ```
 ![script](https://user-images.githubusercontent.com/68069659/210920410-347ba0ac-dab6-49c7-9b92-5182f0b58514.gif)
 
-see result in report.txt
+- see result in report.txt
 
 ![image](https://user-images.githubusercontent.com/68069659/210921053-1bcbef46-e93b-4969-8676-d2aa7311fb0d.png)
 
-for more info:
+- for more info:
 
 ```bash
 kubectl describe vuln <REPLICASET> -n <NAMESPACE>
