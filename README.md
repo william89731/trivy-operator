@@ -47,7 +47,8 @@ cd ~ && git clone https://github.com/william89731/trivy-operator && cd trivy-ope
 ```bash
 trivy-operator
 ```
-![script](https://user-images.githubusercontent.com/68069659/210920410-347ba0ac-dab6-49c7-9b92-5182f0b58514.gif)
+![script](https://user-images.githubusercontent.com/68069659/211056782-817a3e41-40cb-446f-8bad-2449763b0a74.gif)
+
 
 ```see result in report.txt```
 
