@@ -18,6 +18,13 @@ Install trivy operator:
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/aquasecurity/trivy-operator/v0.10.1/deploy/static/trivy-operator.yaml
 ```
+check the operator is running:
+
+```bash
+kubectl get deployment -n trivy-system
+```
+![image](https://user-images.githubusercontent.com/68069659/210912943-123aac97-8cbc-4669-a84d-7cf01c260ead.png)
+
 
 ### step 2
 
