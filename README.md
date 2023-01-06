@@ -33,7 +33,7 @@ kubectl get deployment -n trivy-system
 ```bash
 cd ~ && git clone https://github.com/william89731/trivy-operator && cd trivy-operator
 ```
-- make your [namespace.txt]()
+- make your [namespace.txt](https://github.com/william89731/trivy-operator/blob/main/namespace.txt)
 
 ![image](https://user-images.githubusercontent.com/68069659/210927282-57a5228b-33fb-4739-8b20-dc43fdb8109c.png)
 
